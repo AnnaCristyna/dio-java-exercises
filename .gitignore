@@ -1,0 +1,29 @@
+# Ignorar arquivos de compilação e build
+bin/
+target/
+build/
+*.class
+
+# Ignorar arquivos gerados pelo VsCode
+/.vscode
+
+# Ignorar arquivos gerados pelo Eclipse IDE
+.settings/
+.project
+.classpath
+
+# Ignorar arquivos gerados pelo IntelliJ IDEA
+.idea/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+
+# Ignorar arquivos de dependências gerados pelo Maven
+dependency-reduced-pom.xml
+.mvn/
+
+# Ignorar arquivos de configuração locais
+src/main/resources/application.properties
